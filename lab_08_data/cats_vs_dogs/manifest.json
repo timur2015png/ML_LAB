@@ -1,0 +1,1609 @@
+{
+  "source_url": "https://download.mlcc.google.com/mledu-datasets/cats_and_dogs_filtered.zip",
+  "source_page": "https://www.tensorflow.org/tutorials/images/transfer_learning",
+  "seed": 42,
+  "description": "100 cats (label 1), 100 dogs without cats (label 0).",
+  "selection": "Random sample from the train folders, with decoded exact duplicates excluded.",
+  "images": [
+    {
+      "file": "cats/cat.798.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.798.jpg",
+      "sha256": "d117c29d9cf75c0780db8b8226895cecffed1425b47b479947a0f8b69e414231",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.555.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.555.jpg",
+      "sha256": "5839b3099498b5b6ece86476f2e06cc1f31c1dee92426e861885b6058d7d7250",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.904.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.904.jpg",
+      "sha256": "f8dcd36b0ba1bd37c8fe246a12ebac2be5a8dca06e83c36fcf2f3fa412e15cd6",
+      "width": 500,
+      "height": 356
+    },
+    {
+      "file": "cats/cat.929.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.929.jpg",
+      "sha256": "e98dc9d33423d79d5c92325524b23bd7297050c4d9a67bef948b41ecf05c85bd",
+      "width": 400,
+      "height": 299
+    },
+    {
+      "file": "cats/cat.128.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.128.jpg",
+      "sha256": "fe5c1ad627cb2b39f6cedc9223c8c531921a8100e6ad415fed909b43364043ce",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.533.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.533.jpg",
+      "sha256": "af229bcd91d03ea6e644b4f4172c4db46e834df0f2a58b32db265ed04cd5ef71",
+      "width": 338,
+      "height": 440
+    },
+    {
+      "file": "cats/cat.175.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.175.jpg",
+      "sha256": "2c96a61136d2e343e4a7deb22e94d6c5f290b53d7a75e0b2459601ffa0aed705",
+      "width": 300,
+      "height": 226
+    },
+    {
+      "file": "cats/cat.774.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.774.jpg",
+      "sha256": "82b880a67f4f4570aee9746b4cad5f048cdae1bf275c04edfcb38401a3f18edc",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.417.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.417.jpg",
+      "sha256": "bf5b2e956d50fe94310af5c4d92cc9d81967e2974506e16d3ee77860ccd42a62",
+      "width": 324,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.57.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.57.jpg",
+      "sha256": "5b42d9bc1c0cadef6cf8e881c25586974f09c7fa5d85433de61fedff87537826",
+      "width": 335,
+      "height": 291
+    },
+    {
+      "file": "cats/cat.264.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.264.jpg",
+      "sha256": "f4cdf6d2b2e193dec20a0cf6f622a0b022de52314774bab07550b56be71629a5",
+      "width": 350,
+      "height": 291
+    },
+    {
+      "file": "cats/cat.827.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.827.jpg",
+      "sha256": "1b1702dde28efa0714526dc73ac1bc6c163c7e092f962a4094b4853a5e7e3107",
+      "width": 299,
+      "height": 225
+    },
+    {
+      "file": "cats/cat.475.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.475.jpg",
+      "sha256": "7c9ddbcadbfd7950b03782daecf54ae355fee145c7b4ead1594b2d4260ae2f54",
+      "width": 431,
+      "height": 287
+    },
+    {
+      "file": "cats/cat.652.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.652.jpg",
+      "sha256": "2929e0cad85c3ac7aca7a47f0cfaf5bc5e4f9f3adea77290d550e0c9671aeff0",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.712.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.712.jpg",
+      "sha256": "623062636bd1c2654fc4314d41b5447a17d4a6882589182a3b48c50a8ba37d59",
+      "width": 201,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.55.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.55.jpg",
+      "sha256": "a50b87cde2ff4c5fbe2307172b524cd059a2765e47938579e2cc3fc51c231227",
+      "width": 344,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.783.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.783.jpg",
+      "sha256": "aa678b840838a8dafec1c2c2e529dc60a90d510afc5ffaf065be76ff80d098b8",
+      "width": 299,
+      "height": 316
+    },
+    {
+      "file": "cats/cat.142.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.142.jpg",
+      "sha256": "52cf84cb591994febe303b024fd9ef7b0bead5d76273dbb0598a9d8b6bf06bb9",
+      "width": 369,
+      "height": 498
+    },
+    {
+      "file": "cats/cat.758.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.758.jpg",
+      "sha256": "115f34d4c3c6f493b100aca8ba7469c6c607881f7d57c057deef83c344a6f29e",
+      "width": 299,
+      "height": 224
+    },
+    {
+      "file": "cats/cat.400.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.400.jpg",
+      "sha256": "4984768a52b28538f8a46942b036a6140b0b0361fa5946e64728f5c87ce312b5",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.503.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.503.jpg",
+      "sha256": "45c302d0e24706530da3b19f087d8c029f1d8b6f270d241b90cee52160678d75",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.81.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.81.jpg",
+      "sha256": "46f3001097da97778aeebc996638b8debc981843f0d32f1ab28dd8f89de68f7b",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.413.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.413.jpg",
+      "sha256": "7adc4c90e21788efe18575a9dd083eff2ecd206209fa5f06acabd305b6ded7c2",
+      "width": 320,
+      "height": 223
+    },
+    {
+      "file": "cats/cat.519.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.519.jpg",
+      "sha256": "7e714e1760b6aec9540f72591ac3c0e82d24871cb8b1b3d25754d16fffd50a92",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.659.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.659.jpg",
+      "sha256": "f1304a8423dc7b17963fda6bb1bf7895fc322d4696fa825cb5a5e7369c8ce0a9",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.527.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.527.jpg",
+      "sha256": "447284be75f72611326b48354a6435010affa8fcb9b4b85843f073e4e115833f",
+      "width": 249,
+      "height": 270
+    },
+    {
+      "file": "cats/cat.651.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.651.jpg",
+      "sha256": "de4a440983c16452bb0f7c624165db0fb712a9eea38bdfcb04d7f799195f287c",
+      "width": 500,
+      "height": 290
+    },
+    {
+      "file": "cats/cat.598.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.598.jpg",
+      "sha256": "6c19e21d40c594ed4eba574f38a91cd9817f168ac28d62b2d71d5fc78f65c095",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.427.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.427.jpg",
+      "sha256": "b29a3c78165635ad1c5dfd99c64d5c36c9bb138de9cee75510b630dc53e19ba3",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.792.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.792.jpg",
+      "sha256": "d1bba441a5a6c1bb32e41e25b4aa50526c05494425ef3e1ff3bcdb3e9bf928d8",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.666.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.666.jpg",
+      "sha256": "55d28b3bfa373b379aa6d4518c54415fcb1234367456c688981f1948ad8fa30e",
+      "width": 499,
+      "height": 333
+    },
+    {
+      "file": "cats/cat.945.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.945.jpg",
+      "sha256": "121c6b288bd3b2f2123d4a4ed62cb75d4ae2f2d300e1c0618d79c841fc692013",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.816.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.816.jpg",
+      "sha256": "1c55dce9d63cf0de22e72675fc9e2baf169cf8c44f154336dd42b5499a5a9c97",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.545.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.545.jpg",
+      "sha256": "191c72e087396c7d47afa9bd528f09a79318d0c2a88a6eeb5cd9c3c5d4bc7f5c",
+      "width": 500,
+      "height": 376
+    },
+    {
+      "file": "cats/cat.930.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.930.jpg",
+      "sha256": "82ce2384930c6a673f5af9ed5e2907ce0e1009aa1ceadc078cae5273b767abb3",
+      "width": 500,
+      "height": 357
+    },
+    {
+      "file": "cats/cat.430.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.430.jpg",
+      "sha256": "8fb24da8474c74c8b058e825411376b9a9dba064439f0307855e6e5689ce7923",
+      "width": 395,
+      "height": 454
+    },
+    {
+      "file": "cats/cat.635.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.635.jpg",
+      "sha256": "1e8436410acd3215cc5bfa27c94f94fb78512858c7518c0b028a8ab42677bde3",
+      "width": 374,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.747.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.747.jpg",
+      "sha256": "4b088c41fae6260ccdf7f5550ab7f96add807b3a5fefe794624f2b548964b2ee",
+      "width": 500,
+      "height": 399
+    },
+    {
+      "file": "cats/cat.146.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.146.jpg",
+      "sha256": "b6a13bd99a4ae784e32867311a01ef84cc3e449c9053e3089084a9c3479e01cf",
+      "width": 80,
+      "height": 119
+    },
+    {
+      "file": "cats/cat.482.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.482.jpg",
+      "sha256": "fddb8105e3dc977b018de9316c15fcc40c21c65f36520a37570be574dc253999",
+      "width": 500,
+      "height": 190
+    },
+    {
+      "file": "cats/cat.149.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.149.jpg",
+      "sha256": "b55027867e4b4edec89d22eeafa2bec16ef622bf0f49add7759b2edf029377fb",
+      "width": 470,
+      "height": 499
+    },
+    {
+      "file": "cats/cat.336.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.336.jpg",
+      "sha256": "9e101a584e89d403ab9d233b414d9843730d5bc52ef8bed5b0f18855a8a982bf",
+      "width": 256,
+      "height": 191
+    },
+    {
+      "file": "cats/cat.794.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.794.jpg",
+      "sha256": "946b1a6cb5a2444ca0624b4a133ebd4e6c2f66714a56e4a292afedea74222e01",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.265.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.265.jpg",
+      "sha256": "9d2600952eea4c204018f9e6eca6227215d34735dc58f3732a0ec63d9c8a46e5",
+      "width": 472,
+      "height": 421
+    },
+    {
+      "file": "cats/cat.518.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.518.jpg",
+      "sha256": "604efad8b3a641cd4a0a0a5ffd87cccd8f5072a16199843308bc4f40b2777965",
+      "width": 500,
+      "height": 417
+    },
+    {
+      "file": "cats/cat.809.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.809.jpg",
+      "sha256": "5448977a2daa5663e5315c00cecb667e89a943713271d1e70add792ea93f6db8",
+      "width": 381,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.255.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.255.jpg",
+      "sha256": "1960a9c5b806b3533ec70a39bad9a453fa4436e307150c77833a35fa425e81cd",
+      "width": 499,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.233.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.233.jpg",
+      "sha256": "d975407195b8bf9b334acc0b3bcb3d286154174183ceaa8f601c6ff1fc995690",
+      "width": 499,
+      "height": 350
+    },
+    {
+      "file": "cats/cat.766.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.766.jpg",
+      "sha256": "9fbb4eebfdf01c0ae4b879968f1bcb2b16576539977ce3a81f35562b5c55af27",
+      "width": 433,
+      "height": 284
+    },
+    {
+      "file": "cats/cat.20.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.20.jpg",
+      "sha256": "d3f856741a11ec1737706f2f107fbb7bc6c408cb1715f2e4d02f28c0ab1ff18d",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.484.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.484.jpg",
+      "sha256": "b26c391bb25a7685d2abcbfbab35dc5a96938ef428ec0049df9d16f511f8e57f",
+      "width": 299,
+      "height": 269
+    },
+    {
+      "file": "cats/cat.968.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.968.jpg",
+      "sha256": "c05dbfef316164584924ded35b65f169f96b48a5cfee62d4b1c446221f917592",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.114.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.114.jpg",
+      "sha256": "9541badddfe6c997d136e8f85dc5e9783d21de68202f0b3990befd5c7efffc09",
+      "width": 350,
+      "height": 261
+    },
+    {
+      "file": "cats/cat.269.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.269.jpg",
+      "sha256": "17ee4a7d2e171dfe5f12da22567f2709f68e53c56694877045d96994f8a1368d",
+      "width": 490,
+      "height": 499
+    },
+    {
+      "file": "cats/cat.471.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.471.jpg",
+      "sha256": "0493910185a99e210e061d60e380b49cb9f47a6edb09eb9ec36709a160b053dc",
+      "width": 499,
+      "height": 447
+    },
+    {
+      "file": "cats/cat.629.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.629.jpg",
+      "sha256": "5265ed38c5b425bc07792cf9e58661071faed3b448786b63473dca5b5310fe23",
+      "width": 250,
+      "height": 249
+    },
+    {
+      "file": "cats/cat.699.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.699.jpg",
+      "sha256": "2a682bf467f2e01705caf3f8e14c8bcb2b8316db22c0e7e1979aae4b2000d815",
+      "width": 446,
+      "height": 499
+    },
+    {
+      "file": "cats/cat.786.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.786.jpg",
+      "sha256": "99cbe4f575ba0e0b120f87d8e9edf2552fc5ea7d5cd91310e075f0b75a813202",
+      "width": 499,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.298.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.298.jpg",
+      "sha256": "fc02c68f14de49cf2bbcf793a034de5f812b180e4e810f5ac68d7aaf80b88f11",
+      "width": 431,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.626.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.626.jpg",
+      "sha256": "f73c95a4c4174e0d28ada3746fbf10f3a4e4288ff510474ff401b6dc8428b113",
+      "width": 308,
+      "height": 259
+    },
+    {
+      "file": "cats/cat.621.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.621.jpg",
+      "sha256": "8a66f17564da538279e0993331741979a8ce95321d7fd3592c065ab01f60b110",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.368.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.368.jpg",
+      "sha256": "40696724ffa7051bf20401ebc072bba45ee4f59da566bea70e735d466b6c6c85",
+      "width": 399,
+      "height": 300
+    },
+    {
+      "file": "cats/cat.673.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.673.jpg",
+      "sha256": "6709333a33a404e2a920783a30a42d69d778401b465f297143d62d3a67ef9161",
+      "width": 111,
+      "height": 180
+    },
+    {
+      "file": "cats/cat.446.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.446.jpg",
+      "sha256": "98a24265eae67847509d49264efa5f8df8c80b520ef56f2b9e7e897c7cc69a77",
+      "width": 319,
+      "height": 480
+    },
+    {
+      "file": "cats/cat.426.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.426.jpg",
+      "sha256": "6d302f015ae7be162c76b5e9ac058b852aef5239df7959477b409e0a0656ec8d",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.890.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.890.jpg",
+      "sha256": "b84679fe9a9c02d7a102c624bf1a0498e3d41f1e172005bfb0cfc7e2f06e217a",
+      "width": 374,
+      "height": 450
+    },
+    {
+      "file": "cats/cat.4.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.4.jpg",
+      "sha256": "0194dc2f07d27ea17b15a71390f89010f6594e3be83b7d014ade95ce9cb5721e",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.112.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.112.jpg",
+      "sha256": "b3828ccb9c09e623dd6b6362547f2bde6e3a09ad4e7009c71b5aaaa42cdd3f99",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.280.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.280.jpg",
+      "sha256": "0ce96a960836f1510dc74721325d2fb35525fb75715835b43663d431a913b1e8",
+      "width": 489,
+      "height": 397
+    },
+    {
+      "file": "cats/cat.1.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.1.jpg",
+      "sha256": "89b73bf41eb677cbbe5542e4be30aef330e2164a08a4d920f2bbe82be495dc99",
+      "width": 300,
+      "height": 280
+    },
+    {
+      "file": "cats/cat.132.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.132.jpg",
+      "sha256": "5a293a52e0868bafdbb074f35d6e713e4b966d036bf68c38a0afebdcb830b0f5",
+      "width": 499,
+      "height": 336
+    },
+    {
+      "file": "cats/cat.36.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.36.jpg",
+      "sha256": "6ea7ce5b75a2e7f4630614fefe28a2415d0141d50cd4849149b9802b350320d2",
+      "width": 500,
+      "height": 311
+    },
+    {
+      "file": "cats/cat.542.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.542.jpg",
+      "sha256": "8cf53a6c0deeb62d4d2e9668b8efb953ddbc7093b427ba7f818120f604c58601",
+      "width": 476,
+      "height": 299
+    },
+    {
+      "file": "cats/cat.320.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.320.jpg",
+      "sha256": "02a51e58faeefe67b056879ca697425668d8d761d9fb8809477507fb733f3841",
+      "width": 499,
+      "height": 473
+    },
+    {
+      "file": "cats/cat.554.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.554.jpg",
+      "sha256": "ebf66a3c4af2ad248ccd2428a92865da0a97de1b7b0a16c777b039b61921d538",
+      "width": 428,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.905.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.905.jpg",
+      "sha256": "1451795e1a23c157a697e1639fdb60843b5890dee73de5178b6556912092f9dc",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.740.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.740.jpg",
+      "sha256": "1d7b66a0fce9f15a086b0151ca7c1683fa04aaa9b01ed3ba45424956ee32e7a3",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.900.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.900.jpg",
+      "sha256": "aa47db93d42d41e1fc21ff24bc805edd41dc5b3b6dc3a3dffe1db95b384caea6",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.167.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.167.jpg",
+      "sha256": "1cee1dcbaeb58a6dcc6a714e1c19afc5943f2c988e04f551d880477550b771e0",
+      "width": 499,
+      "height": 417
+    },
+    {
+      "file": "cats/cat.919.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.919.jpg",
+      "sha256": "813c6ae70d3b3c7e1488c73fff82e515e156e103da7d25a95664ecb1a07818a4",
+      "width": 499,
+      "height": 368
+    },
+    {
+      "file": "cats/cat.811.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.811.jpg",
+      "sha256": "c464a9662bae91f56e626298b5f30c9a26b8c97e17f3f5076500d31685eebc4a",
+      "width": 500,
+      "height": 433
+    },
+    {
+      "file": "cats/cat.556.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.556.jpg",
+      "sha256": "c1c31c03c31fd183bf24c4c8b76abfefdb2dc5d0ed49d86ecf35e4ad32e104a3",
+      "width": 304,
+      "height": 280
+    },
+    {
+      "file": "cats/cat.258.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.258.jpg",
+      "sha256": "ce01759b7da28e7673e063114468dae7d0d4470d14520566e1147be7dd1b4863",
+      "width": 360,
+      "height": 269
+    },
+    {
+      "file": "cats/cat.857.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.857.jpg",
+      "sha256": "f55a0b3af592344302726844bbec66f3cb66be529298f50d443acc39707f3e6f",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.279.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.279.jpg",
+      "sha256": "1991ac78a6009c78eb63f21006fef61b85471e1ef669eeca87ee162bf0611a7f",
+      "width": 299,
+      "height": 262
+    },
+    {
+      "file": "cats/cat.788.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.788.jpg",
+      "sha256": "b8a775a818f39d47df52907139af3e60f718a804d7d964632a702efb0018ab34",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "cats/cat.917.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.917.jpg",
+      "sha256": "1641d546a79d98fb6f47d3a7f3e4e3f01d9a0af36787aeec7862590685976ac6",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "cats/cat.362.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.362.jpg",
+      "sha256": "9275b26cc248fb93a66cdcb14be2bb6d7a20981d4987e4c993cd10d322091f6f",
+      "width": 499,
+      "height": 357
+    },
+    {
+      "file": "cats/cat.583.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.583.jpg",
+      "sha256": "7fa5a0527f55fef8b95631f3ec4d99c4eac24dfdca111d9b6c57512bfe338a4d",
+      "width": 412,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.12.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.12.jpg",
+      "sha256": "aab3d5d4791c570d7b737698d36961a4d02ecde3bf6f95b312c8567490c62be0",
+      "width": 300,
+      "height": 224
+    },
+    {
+      "file": "cats/cat.723.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.723.jpg",
+      "sha256": "d4429a89bf91cdc7fa1e73f3cff3bc4aa73abfdd99f600d55646f565173666d0",
+      "width": 500,
+      "height": 295
+    },
+    {
+      "file": "cats/cat.288.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.288.jpg",
+      "sha256": "7facf909b0feb622d40ca7338dfada0cb40328e63574211adad1a7d576490f1d",
+      "width": 449,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.480.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.480.jpg",
+      "sha256": "e42cee5e745ade122df176b00cc0b216f5b4092de2c494cd1de77f0f1fa55ff0",
+      "width": 265,
+      "height": 239
+    },
+    {
+      "file": "cats/cat.574.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.574.jpg",
+      "sha256": "5acbfdd9ecaa769312024ea6e1a21e867829d9e3ec03828d8cd7dfe2c62ccbd8",
+      "width": 499,
+      "height": 371
+    },
+    {
+      "file": "cats/cat.129.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.129.jpg",
+      "sha256": "32e11392f644caac282d034c9574ce8babeacb7dad07355c0f52e30cb1bb2f07",
+      "width": 500,
+      "height": 336
+    },
+    {
+      "file": "cats/cat.934.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.934.jpg",
+      "sha256": "7b3b597b64fd91bb29c0cac7f71162a71b1c621205ce51a62147500c40aadfd0",
+      "width": 179,
+      "height": 137
+    },
+    {
+      "file": "cats/cat.457.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.457.jpg",
+      "sha256": "4f3e92e57c822bad1af93456ad76edc8075e3f9b5f80b58117f66e6787235739",
+      "width": 499,
+      "height": 328
+    },
+    {
+      "file": "cats/cat.645.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.645.jpg",
+      "sha256": "47c6933487e4aef3174a39c95297ad5e01ab96910a987f813a13b115c78bcfc8",
+      "width": 500,
+      "height": 356
+    },
+    {
+      "file": "cats/cat.367.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.367.jpg",
+      "sha256": "0b096e9d53e7d3215ce4591d711f2f98cbdf3ec081a47e2e2d9938d438e4cb0e",
+      "width": 332,
+      "height": 500
+    },
+    {
+      "file": "cats/cat.862.jpg",
+      "label": 1,
+      "archive_member": "cats_and_dogs_filtered/train/cats/cat.862.jpg",
+      "sha256": "d6aa670ee1c2d8fe496a5c124e85bcf56c0b44e94ed20c82e7c69c87dbfd0f5a",
+      "width": 140,
+      "height": 95
+    },
+    {
+      "file": "dogs/dog.644.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.644.jpg",
+      "sha256": "fa047022a866d9c049742df573e3a6e0fbb5692de673959b245f384b6809fb24",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.998.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.998.jpg",
+      "sha256": "2e55af5b42ae2d7763b09f7b4eb568b14c4c141e5de452edeb71fa20088477fd",
+      "width": 494,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.522.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.522.jpg",
+      "sha256": "8f04b5ad4ebce20cb8e3119d01c4cc6a6f850ab4fdf6aaf082aea69086a5ee60",
+      "width": 349,
+      "height": 322
+    },
+    {
+      "file": "dogs/dog.728.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.728.jpg",
+      "sha256": "92f8c570a470a319acfe0681c4285840948d9e361ed7cdae75e43226227ac26b",
+      "width": 238,
+      "height": 349
+    },
+    {
+      "file": "dogs/dog.73.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.73.jpg",
+      "sha256": "b35fce3c228e5cce67c7c4f8565b56baa48cee47fab7c3b0dea66addda2aecc6",
+      "width": 299,
+      "height": 227
+    },
+    {
+      "file": "dogs/dog.180.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.180.jpg",
+      "sha256": "62ab156bdbafac8783acf00ed57b477a52cf4c65c9d8356c5d7c47c6dd1e365f",
+      "width": 500,
+      "height": 367
+    },
+    {
+      "file": "dogs/dog.669.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.669.jpg",
+      "sha256": "474667595a12155b97788446a2a1976ba36816a735170afa290e09cb44a323ca",
+      "width": 385,
+      "height": 254
+    },
+    {
+      "file": "dogs/dog.151.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.151.jpg",
+      "sha256": "09fb6bdaad3dbacc2241413576b107dd2102541961250a64e75d4b1f04652f24",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.28.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.28.jpg",
+      "sha256": "067c232cf185f8a1cb4032a9a2fc5191669f2602cc258b5ad97dcaf43e308617",
+      "width": 287,
+      "height": 432
+    },
+    {
+      "file": "dogs/dog.387.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.387.jpg",
+      "sha256": "85957073789034fdd893f0d34ebd620540fca663e52b3b5b8a23744adb6a5c86",
+      "width": 349,
+      "height": 262
+    },
+    {
+      "file": "dogs/dog.510.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.510.jpg",
+      "sha256": "61a01a51ec2d60502cd14ccc0c63223dfab3d3d2af69d0e6fbd0a3330ce12e8b",
+      "width": 440,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.547.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.547.jpg",
+      "sha256": "d30226a2d66fbacb65f3af678045c1e178411df296bddcba71eddeb97b31bd2b",
+      "width": 249,
+      "height": 187
+    },
+    {
+      "file": "dogs/dog.537.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.537.jpg",
+      "sha256": "a91ca0c36b1f0d962777109d0cfb2ed0271a4d0ffbb0efe3031982764a1dec62",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.417.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.417.jpg",
+      "sha256": "ae23f565c43402122e0516b2790b67fb1705fe908a6ce3dff281054cfb36d6f3",
+      "width": 403,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.897.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.897.jpg",
+      "sha256": "b2a0a6d82bd3ffe48e73bfcac5b1fe90edf390f56e3d1deca7bbe9765ccc0177",
+      "width": 212,
+      "height": 175
+    },
+    {
+      "file": "dogs/dog.173.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.173.jpg",
+      "sha256": "0ba94a52a583ff469fab2ecf5022aa3681913d59642d0b6a01f71e33b0079230",
+      "width": 500,
+      "height": 333
+    },
+    {
+      "file": "dogs/dog.37.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.37.jpg",
+      "sha256": "59efe0826272f839e68aee2c7b450fde99a00b517a10481259353057e8e56dd7",
+      "width": 400,
+      "height": 371
+    },
+    {
+      "file": "dogs/dog.284.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.284.jpg",
+      "sha256": "3fef663a6450eacb7a17f25cabf3b552297bebea187ba9d13fca25aeced4b43c",
+      "width": 120,
+      "height": 89
+    },
+    {
+      "file": "dogs/dog.178.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.178.jpg",
+      "sha256": "23b12270cc56027733db73d059fea09ff69959f53b525a8c1702a702b789d19a",
+      "width": 500,
+      "height": 373
+    },
+    {
+      "file": "dogs/dog.880.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.880.jpg",
+      "sha256": "0b46c37bba8bcf07de0ba1c189bffe1e5f8293a50d479f5bea01b17f99c7d283",
+      "width": 499,
+      "height": 467
+    },
+    {
+      "file": "dogs/dog.509.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.509.jpg",
+      "sha256": "2fb870b85cd8d5d8546cfec8cd29a35ef9d64a0d99741c8db38d63c91a9db6fb",
+      "width": 400,
+      "height": 324
+    },
+    {
+      "file": "dogs/dog.798.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.798.jpg",
+      "sha256": "15287b48267ef4e5b4857c076751f5e86a169f74502499c9aa428e4b6e2ef85f",
+      "width": 249,
+      "height": 293
+    },
+    {
+      "file": "dogs/dog.882.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.882.jpg",
+      "sha256": "92b07b685fa82a06ac79b692d3640d0ce1fc6c09d40c3975771b43137166350a",
+      "width": 499,
+      "height": 333
+    },
+    {
+      "file": "dogs/dog.380.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.380.jpg",
+      "sha256": "22f04930e3119978482aa6e9d15a9efd2987080446e96dc5670df50b5044aa0d",
+      "width": 495,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.0.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.0.jpg",
+      "sha256": "02cd44c092168d3cee5587ba9a891071b4cbae29c25f6f84e89cb660a1e4003c",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.702.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.702.jpg",
+      "sha256": "efac20c35dab1d0b5e1d9f5fe26bc9b00301e2be42c26483b4059934ae5eb84e",
+      "width": 411,
+      "height": 418
+    },
+    {
+      "file": "dogs/dog.472.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.472.jpg",
+      "sha256": "45fdfde3e25f01fbdc4a00f02fa67cd1c1616ff1f8e6b826171ef23804622f26",
+      "width": 499,
+      "height": 400
+    },
+    {
+      "file": "dogs/dog.459.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.459.jpg",
+      "sha256": "2a6a88414073d4b0eea63683231683afed58ba3164a0a2ea6c15b90a8e8d9c66",
+      "width": 403,
+      "height": 335
+    },
+    {
+      "file": "dogs/dog.875.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.875.jpg",
+      "sha256": "3b9e2c326547bb3c7c24565b1b825f8a9896a171f01f51e3fde028d5f2665120",
+      "width": 346,
+      "height": 288
+    },
+    {
+      "file": "dogs/dog.591.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.591.jpg",
+      "sha256": "bd4a1c03ad3adf24cdd91c825bcd32e58eb9332a49f944c39bf12967ca2a0f40",
+      "width": 500,
+      "height": 294
+    },
+    {
+      "file": "dogs/dog.712.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.712.jpg",
+      "sha256": "2293f2e13b8ae6292d9e847be8eeb61cedaf09c6ef8faaa8c2089e05e60d4453",
+      "width": 169,
+      "height": 152
+    },
+    {
+      "file": "dogs/dog.932.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.932.jpg",
+      "sha256": "48bfda6e9cc8a9dd602f4e534757bb316c6db4a712b2177ee100888129c306a4",
+      "width": 500,
+      "height": 332
+    },
+    {
+      "file": "dogs/dog.209.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.209.jpg",
+      "sha256": "3667353efbd8ed1b58adc19ea51c2498c5c9f61d16f8dee0eb3ba5105caa17fb",
+      "width": 459,
+      "height": 430
+    },
+    {
+      "file": "dogs/dog.954.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.954.jpg",
+      "sha256": "9289f07635b59a6d42e141a7acc94719a6fe2e559e99b5d55fd838adaec1209a",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.825.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.825.jpg",
+      "sha256": "f0fd859f0de731dc7e11aed58fd66d915edcbf597e0ff7d3d12dd98b5f35c943",
+      "width": 460,
+      "height": 346
+    },
+    {
+      "file": "dogs/dog.258.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.258.jpg",
+      "sha256": "22c3fa3be5d8465ecbb4a3256b87b4d61d8bcf96386c396657d98cde1f314eb3",
+      "width": 488,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.744.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.744.jpg",
+      "sha256": "e2675c8c0310a295a976d776318ea6844431956ef7c956012c4f1a331069ae29",
+      "width": 499,
+      "height": 385
+    },
+    {
+      "file": "dogs/dog.199.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.199.jpg",
+      "sha256": "ebccb26aa62ebc41267c498dc8bcd765b89ca926ab8b8b0723829cde8942e223",
+      "width": 480,
+      "height": 309
+    },
+    {
+      "file": "dogs/dog.326.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.326.jpg",
+      "sha256": "e38585c160bc1582e8d7c1173b3decf1f3b8683bb34703afb0bf4e3856b62bb5",
+      "width": 404,
+      "height": 231
+    },
+    {
+      "file": "dogs/dog.360.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.360.jpg",
+      "sha256": "3d6eac3509caf67530fe79f3239a1f56e0d511728092301fb5bac3ee59a9759d",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.104.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.104.jpg",
+      "sha256": "3fb0d17be637cb13b6ad74810ba2fddc47644241055cc7a7a1294288e7c277d0",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.262.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.262.jpg",
+      "sha256": "9dc6e31b285c9bf15d9e86bdd913e0fc34956f0a88c6cfaa05c91a2d306d5d88",
+      "width": 400,
+      "height": 299
+    },
+    {
+      "file": "dogs/dog.103.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.103.jpg",
+      "sha256": "0f9109ec4e298738fd301a55efa9f21c8d0000fc66f3d31899016850bcaa6fc5",
+      "width": 499,
+      "height": 433
+    },
+    {
+      "file": "dogs/dog.955.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.955.jpg",
+      "sha256": "d52494c70b1193fbe6e0491b41708e9e5b56c863857678675d378b91e35d4308",
+      "width": 499,
+      "height": 378
+    },
+    {
+      "file": "dogs/dog.171.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.171.jpg",
+      "sha256": "1fbfd9f4d7d4af0d000482d0864b291c280205dcea020e9215d1bd72c39447aa",
+      "width": 354,
+      "height": 354
+    },
+    {
+      "file": "dogs/dog.908.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.908.jpg",
+      "sha256": "95c6035d78192eacc14a5e93edf4633f51d7d397b765bd6057e6730a458e3c6b",
+      "width": 500,
+      "height": 391
+    },
+    {
+      "file": "dogs/dog.905.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.905.jpg",
+      "sha256": "5e63e12e7d18bb8dd069e03672b659e02c5ef5829a278113a2cdfa8695b43204",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.722.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.722.jpg",
+      "sha256": "1bd4e5663526572539d8ad4973624b1b19e64042e75f8244da410e3baa132da0",
+      "width": 447,
+      "height": 416
+    },
+    {
+      "file": "dogs/dog.436.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.436.jpg",
+      "sha256": "2ca2a85dc8674348d6db8dc0f7bbf235761ae137a17e02d3fa24ed4b7292ccef",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.686.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.686.jpg",
+      "sha256": "bb0b0cf3c8437daefcc8f7bfdec2d9df2211cea36f5488b8e8c05f95a79a185d",
+      "width": 500,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.221.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.221.jpg",
+      "sha256": "1f2d4d5ff063be6820b2aa9975738d784ec178143111a65ee5885bfac9648293",
+      "width": 328,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.587.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.587.jpg",
+      "sha256": "d3abd93bd27dbdcf72eb455e43bab70f77746bf1b698919d3b2ec816fb3827e9",
+      "width": 259,
+      "height": 290
+    },
+    {
+      "file": "dogs/dog.564.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.564.jpg",
+      "sha256": "8c180ba10d5f931f1848c918a92efa76d61c7b7e1fd363077ebf5cdef33c533a",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.827.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.827.jpg",
+      "sha256": "adc52d0913cde6e2db912b929b347d8828097ef41756a7b1ee6f324cd31ffd3a",
+      "width": 313,
+      "height": 454
+    },
+    {
+      "file": "dogs/dog.550.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.550.jpg",
+      "sha256": "5089cdb81bc9c25bc5ee21183cd1789111d4e89dcce294b57aa0c9f041716116",
+      "width": 200,
+      "height": 161
+    },
+    {
+      "file": "dogs/dog.245.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.245.jpg",
+      "sha256": "a9cb53844cafa130490756fa3b428e04f771fab1ddd7234360156026660a8b63",
+      "width": 403,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.928.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.928.jpg",
+      "sha256": "370532a6b67213cea23892dd6a489341e372d0a385c811177b2c0b92ada7ecd6",
+      "width": 500,
+      "height": 489
+    },
+    {
+      "file": "dogs/dog.127.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.127.jpg",
+      "sha256": "f3a1a84745447d3e64d876b0f5131296ead462018f1a22d213acf9cb136b6202",
+      "width": 336,
+      "height": 226
+    },
+    {
+      "file": "dogs/dog.70.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.70.jpg",
+      "sha256": "0fb6ee83a08515c26974c81bb99d54a720014e08269b0f8f59cf1b505dddd6ba",
+      "width": 300,
+      "height": 293
+    },
+    {
+      "file": "dogs/dog.365.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.365.jpg",
+      "sha256": "bd62b243705919368a2a496cf70143d97402ff152436973705ad5dfe46689d22",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.61.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.61.jpg",
+      "sha256": "0411dca2c9b8f1b375e58c5902929c47c37f25dd84fe8b215ee9bf2b9251787d",
+      "width": 499,
+      "height": 342
+    },
+    {
+      "file": "dogs/dog.536.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.536.jpg",
+      "sha256": "cfd389f11fff2e07997ad3d79f5efc3d8c85bd52bf91af026025ab837ff8cb0e",
+      "width": 272,
+      "height": 349
+    },
+    {
+      "file": "dogs/dog.842.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.842.jpg",
+      "sha256": "1f9e71ec47db8c4097eadd1c08bc8e0a7461c027eb574eb8507b3f02467b3cda",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.616.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.616.jpg",
+      "sha256": "3853fbb2154e173d05d9ae1a1b1d43fedaa9cf124668dda6d14ef6b368c61c8b",
+      "width": 324,
+      "height": 399
+    },
+    {
+      "file": "dogs/dog.624.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.624.jpg",
+      "sha256": "7377e8039617a032d5fa0678e18a4cfb9b31e2ce5bf6a66abe2936b5e5fb14eb",
+      "width": 335,
+      "height": 370
+    },
+    {
+      "file": "dogs/dog.216.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.216.jpg",
+      "sha256": "3d9fc0e777a22a9d453ad5fcd2fad7c9ed4590b0c56f01e353edf04b5add13f9",
+      "width": 282,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.339.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.339.jpg",
+      "sha256": "fbd4899f865a7db5f6400db16d32478d974901a148d24fc952ae40b9cb89e2f3",
+      "width": 486,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.623.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.623.jpg",
+      "sha256": "a544ffc4bef347b97c06cd4bde0f4156ba469b60fbdf667de3c87f24dc705a86",
+      "width": 447,
+      "height": 319
+    },
+    {
+      "file": "dogs/dog.165.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.165.jpg",
+      "sha256": "2b96de4370dee722b939a846c0d444376ccfbf1c5b13e0f5e356f9d60c17f96d",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.16.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.16.jpg",
+      "sha256": "7115e6993a47cee21868534f8bed89378274a891b49221b088ac6322ee7c34fa",
+      "width": 500,
+      "height": 380
+    },
+    {
+      "file": "dogs/dog.412.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.412.jpg",
+      "sha256": "009fb19e3b05ca6f4c6c4876fcac419611c69abd9da5040e5643efe1bc09c502",
+      "width": 162,
+      "height": 240
+    },
+    {
+      "file": "dogs/dog.766.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.766.jpg",
+      "sha256": "541ea9d9de308c657925af88b9a4c10322a342b566f58eb1a9676e60b5ec3152",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.963.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.963.jpg",
+      "sha256": "0a22cdbcd73b917c23888fff10c0db91e3999661384522affbcf43eefd70a25c",
+      "width": 499,
+      "height": 375
+    },
+    {
+      "file": "dogs/dog.608.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.608.jpg",
+      "sha256": "fec5cb7010a23bcb5977ee527f6f72540e6c5863703676dc64991dae46bf12e4",
+      "width": 372,
+      "height": 251
+    },
+    {
+      "file": "dogs/dog.896.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.896.jpg",
+      "sha256": "7d6b76d6efa7b924ac26a0f52c8129964dd96f2a3771028e494976e21c6de005",
+      "width": 424,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.903.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.903.jpg",
+      "sha256": "4b7e1ee3f2e4ea52b5f6a1c8f58612d70cb38f9a62d7e0b6013a9a04f2cea41f",
+      "width": 349,
+      "height": 325
+    },
+    {
+      "file": "dogs/dog.869.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.869.jpg",
+      "sha256": "0d506333fa21ef1f7bbc691f6cb16a17aae2c5bbfd886c99f333f97cc6a8c35f",
+      "width": 326,
+      "height": 447
+    },
+    {
+      "file": "dogs/dog.102.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.102.jpg",
+      "sha256": "0ec3580779986a3dee955035a44716e4c64e247282ad1efdafdec3fe1a6a49e2",
+      "width": 499,
+      "height": 373
+    },
+    {
+      "file": "dogs/dog.488.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.488.jpg",
+      "sha256": "baaea68a80d4bfc935d4df3a4509d63c9fe263e18e14be413bd9a1edfbdb99b1",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.651.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.651.jpg",
+      "sha256": "d2eb7a92783ff333393cc2d5b29e70434162333f43aa868bed28895fd5d602fd",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.358.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.358.jpg",
+      "sha256": "e225bdb876e8111b40c575f86ae02b0b34c947d5210f87f80a2ccb30c0e9dd45",
+      "width": 432,
+      "height": 427
+    },
+    {
+      "file": "dogs/dog.193.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.193.jpg",
+      "sha256": "07ab9160ffd714d39348a60ac7d61a3eb05fa2f797ecaeaa2b2188ba7093395b",
+      "width": 287,
+      "height": 360
+    },
+    {
+      "file": "dogs/dog.320.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.320.jpg",
+      "sha256": "372a0ebd0e97dc39e84dc6ce50b7efde05caf3e05af3a66c16f3b0afca133b3f",
+      "width": 370,
+      "height": 357
+    },
+    {
+      "file": "dogs/dog.186.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.186.jpg",
+      "sha256": "3e1b4f1f9e3ab3c5e04f6dd7ea8b39c8238e4f4359abc63a62690d6017d554e4",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.252.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.252.jpg",
+      "sha256": "d4e3d8c7658b205de2495b71374ca8cfe951c6f39771f396c948aad15440537e",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "file": "dogs/dog.770.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.770.jpg",
+      "sha256": "bca70ba72c36ba85768753727e0832a338cac7af14312a72012f677e71a7836e",
+      "width": 250,
+      "height": 246
+    },
+    {
+      "file": "dogs/dog.208.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.208.jpg",
+      "sha256": "274a2c6c1a5e720ff7e8439d03a1e4b02658fc6c5a295f69bed9c91e0ac41bb5",
+      "width": 199,
+      "height": 150
+    },
+    {
+      "file": "dogs/dog.300.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.300.jpg",
+      "sha256": "9d454741a4f8288c41c44175916a1ad8a09c433b36525c6af79078ad10c6d456",
+      "width": 450,
+      "height": 364
+    },
+    {
+      "file": "dogs/dog.191.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.191.jpg",
+      "sha256": "1c0390eeacfe710b0ab8b93a7ca59525a714b21549155cba6f78ee59c9b30041",
+      "width": 360,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.602.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.602.jpg",
+      "sha256": "aed988caf1a205d6dd14559704d78a7a0cc846b266c72a561d003c1e3b04672f",
+      "width": 489,
+      "height": 499
+    },
+    {
+      "file": "dogs/dog.101.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.101.jpg",
+      "sha256": "d36615a949d5b5d7c62f0f29c0c61a67b3ce7ed8fe975b4ad7ecd1cef8eabc90",
+      "width": 440,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.493.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.493.jpg",
+      "sha256": "a434d76eeda801f2f5ca664ceaaf3adae8a3fd79ba8a6371b696ac614b239501",
+      "width": 378,
+      "height": 400
+    },
+    {
+      "file": "dogs/dog.160.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.160.jpg",
+      "sha256": "72ee1286cb554db4e5c6e4161a0fbc05bd27f05241c734843b1ddc02846c6300",
+      "width": 399,
+      "height": 300
+    },
+    {
+      "file": "dogs/dog.614.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.614.jpg",
+      "sha256": "abe6093fd8f1966a5f0e2f8afb96c662ecabb91e5dcf8eaaa86cc0ae06792b8c",
+      "width": 379,
+      "height": 479
+    },
+    {
+      "file": "dogs/dog.109.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.109.jpg",
+      "sha256": "b9c5cc178a979e56a5e3e6df8bb6172582f891ad9b44f4f6b3aa90a494bf323e",
+      "width": 439,
+      "height": 268
+    },
+    {
+      "file": "dogs/dog.308.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.308.jpg",
+      "sha256": "5965b0a23fe0c792a98d9d1d1c8a8b3471659737bc6249dcdc26407df3b21499",
+      "width": 400,
+      "height": 299
+    },
+    {
+      "file": "dogs/dog.781.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.781.jpg",
+      "sha256": "160b5a7073e13bd2a7ca1331705f9ba27b927df0a330a1d60beb865b70befa41",
+      "width": 119,
+      "height": 147
+    },
+    {
+      "file": "dogs/dog.541.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.541.jpg",
+      "sha256": "318d965e5631b60b24f55650effa6c9e475f66d1d36a685ec2563f825fe70e8c",
+      "width": 500,
+      "height": 376
+    },
+    {
+      "file": "dogs/dog.876.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.876.jpg",
+      "sha256": "af4bdbfb81f10c84e1901948208e64c0d4aacad1a37f20a1c386814a94a38c35",
+      "width": 472,
+      "height": 500
+    },
+    {
+      "file": "dogs/dog.863.jpg",
+      "label": 0,
+      "archive_member": "cats_and_dogs_filtered/train/dogs/dog.863.jpg",
+      "sha256": "dac9ac24ca27c98134a23acad0017cad2b29231ebea2fa4702077e652b1b19e1",
+      "width": 350,
+      "height": 261
+    }
+  ]
+}
