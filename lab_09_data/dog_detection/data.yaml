@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- Dog
+roboflow:
+  workspace: timurs-workspace-bwhgr
+  project: dog-detection-wduny
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/timurs-workspace-bwhgr/dog-detection-wduny/dataset/1
